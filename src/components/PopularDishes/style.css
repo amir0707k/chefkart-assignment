@@ -1,0 +1,52 @@
+.popular-dishes{
+    margin-top: 0.9rem;
+    overflow-x: hidden;
+    padding-left: 20px;
+    max-width: 1468px;
+    margin-inline: auto;
+}
+.popular-dishes div{
+    margin-top: 0.8rem;
+
+}
+.popular-dishes ul{
+    margin-top: 0.5rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
+
+}
+.popular-dishes ul li{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #FF941A;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    
+}
+.popular-dishes ul li img{
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    filter: brightness(0.6);
+}
+
+.dish-name{
+    color: white;
+    position: absolute;
+}
+
+.popular-dishes ul li span{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}

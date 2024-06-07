@@ -1,0 +1,7 @@
+nav p{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 1rem;
+    padding: 20px 10px;
+}
