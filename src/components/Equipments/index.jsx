@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 function Equipment({ equipment }) {
-    let src = `src/assets/${equipment}.svg`
+    let src = `../../assets/${equipment}.svg`
     // console.log(typeof Ref);
     // let srrc = `../../assets/Refrigerator.svg`
     // console.log(src);
