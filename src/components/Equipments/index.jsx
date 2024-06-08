@@ -1,13 +1,12 @@
 import React from 'react'
+import Refrigerator from '../../assets/Refrigerator.svg'
 import './style.css'
 function Equipment({ equipment }) {
 
-    let src = '../../assets/Refrigerator 2.png'
 
-    console.log(src, equipment);
     return (
         <div className='equipment'>
-            <img className='equipment-img' src={src} alt={`${equipment}`} />
+            <img className='equipment-img' src={Refrigerator} alt={`${equipment}`} />
 
             <div className='equipment-title'>
                 {equipment}
