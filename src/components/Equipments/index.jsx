@@ -2,14 +2,9 @@ import React from 'react'
 import './style.css'
 function Equipment({ equipment }) {
 
-    let src = ``
+    let src = '../../assets/Refrigerator 2.png'
 
-    if(equipment === 'Refrigerator'){
-        src = '../../assets/Refrigerator.svg'
-    }else{
-        src = '../../assets/Refrigerator.svg'
-    }
-
+    console.log(src, equipment);
     return (
         <div className='equipment'>
             <img className='equipment-img' src={src} alt={`${equipment}`} />
