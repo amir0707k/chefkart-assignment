@@ -2,12 +2,12 @@ import React from 'react'
 import './style.css'
 function Equipment({ equipment }) {
 
-    let src = `../../assets/${equipment}.svg`
-    
+    let src = ``
+
     if(equipment === 'Refrigerator'){
-        src = `../../assets/Refrigerator.svg`
+        src = '../../assets/Refrigerator.svg'
     }else{
-        src = `../../assets/Microwave.svg`
+        src = '../../assets/Refrigerator.svg'
     }
 
     return (
